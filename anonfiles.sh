@@ -5,6 +5,24 @@
 # Clear the screen
 clear
 
+# Check if curl, jq, figlet are installed
+if ! [ -x "$(command -v curl)" ]; then
+    echo "Error: curl is not installed. Installing it now..."
+    apt-get install -y curl > /dev/null
+fi
+
+if ! [ -x "$(command -v jq)" ]; then
+    echo "Error: jq is not installed. Installing it now..."
+    apt-get install -y jq > /dev/null
+fi
+
+if ! [ -x "$(command -v figlet)" ]; then
+    echo "Error: figlet is not installed. Installing it now..."
+    apt-get install -y figlet > /dev/null
+fi
+
+figlet -f standard "AnonFiles"
+
 # Check if the user has provided the necessary arguments
 if [ $# -lt 3 ]; then
     echo "Usage: anonfiles.sh -k API_KEY -f FILE_PATH [-h]"
@@ -45,3 +63,4 @@ url=$(echo $response | jq -r '.data.file.url.short')
 
 # Print the URL
 echo "File uploaded successfully to $url"
+

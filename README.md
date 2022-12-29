@@ -1,7 +1,7 @@
-![watchers](https://custom-icon-badges.demolab.com/github/watchers/haithamaouati/Custom-User-Agent?logo=eye)
-![stars](https://custom-icon-badges.demolab.com/github/stars/haithamaouati/Custom-User-Agent?logo=star)
-![forks](https://custom-icon-badges.demolab.com/github/forks/haithamaouati/Custom-User-Agent?logo=repo-forked)
-![license](https://custom-icon-badges.demolab.com/github/license/haithamaouati/Custom-User-Agent?logo=law)
+![watchers](https://custom-icon-badges.demolab.com/github/watchers/haithamaouati/anonfiles?logo=eye)
+![stars](https://custom-icon-badges.demolab.com/github/stars/haithamaouati/anonfiles?logo=star)
+![forks](https://custom-icon-badges.demolab.com/github/forks/haithamaouati/anonfiles?logo=repo-forked)
+![license](https://custom-icon-badges.demolab.com/github/license/haithamaouati/anonfiles?logo=law)
 ___
 # AnonFiles
 This is a bash script that allows you to upload files to [anonfiles.com](anonfiles.com) using the [anonfiles API](https://api.anonfiles.com/).

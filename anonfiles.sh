@@ -2,6 +2,13 @@
 # Author: Haitham Aouati
 # GitHub: https://github.com/haithamaouati
 
+# Colors
+fg_red=$'\e[0;31m'
+fg_green=$'\e[0;32m'
+fg_yellow=$'\e[0;33m'
+fg_blue=$'\e[0;34m'
+reset=$'\e[0m'
+
 # Check if curl, jq, figlet are installed
 if ! [ -x "$(command -v curl)" ]; then
     echo "Error: curl is not installed. Installing it now..."
@@ -22,6 +29,9 @@ fi
 clear
 
 figlet -f standard "AnonFiles"
+
+echo -e " Author:$fg_yellow Haitham Aouati"
+echo -e "$reset GitHub:$fg_yellow https://github.com/haithamaouati$reset\n"
 
 # Check if the user has provided the necessary arguments
 if [ $# -lt 3 ]; then

@@ -2,9 +2,6 @@
 # Author: Haitham Aouati
 # GitHub: https://github.com/haithamaouati
 
-# Clear the screen
-clear
-
 # Check if curl, jq, figlet are installed
 if ! [ -x "$(command -v curl)" ]; then
     echo "Error: curl is not installed. Installing it now..."
@@ -20,6 +17,9 @@ if ! [ -x "$(command -v figlet)" ]; then
     echo "Error: figlet is not installed. Installing it now..."
     apt-get install -y figlet > /dev/null
 fi
+
+# Clear the screen
+clear
 
 figlet -f standard "AnonFiles"
 

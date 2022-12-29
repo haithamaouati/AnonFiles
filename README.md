@@ -46,8 +46,6 @@ File uploaded successfully to https://anonfiles.com/123abcdefg
 ## Troubleshooting
 If you encounter any errors while running the script, make sure that you have the prerequisites installed and that you have provided the correct arguments.
 
-If you are still having problems, feel free to open an issue on the [GitHub repository]([Insert your GitHub link here]) or contact the author for assistance.
-
 ## Author
 
 Made with :heart: by **Haitham Aouati**

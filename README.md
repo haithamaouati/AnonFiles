@@ -7,7 +7,6 @@ ___
 This is a bash script that allows you to upload files to [anonfiles.com](anonfiles.com) using the [anonfiles API](https://api.anonfiles.com/).
 
 ## Table of Contents
-
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Arguments](#arguments)
@@ -47,14 +46,7 @@ File uploaded successfully to https://anonfiles.com/123abcdefg
 If you encounter any errors while running the script, make sure that you have the prerequisites installed and that you have provided the correct arguments.
 
 ## Author
-
 Made with :heart: by **Haitham Aouati**
 
-![](https://badgen.net/badge/icon/twitter?icon=twitter&label)
-![twitter](https://badgen.net/twitter/follow/haithamaouati)
-
 ## License
-
 This userscript is licensed under the [WTF Public License](http://www.wtfpl.net/).
-
-![WTFPL License](https://raw.githubusercontent.com/haithamaouati/Custom-User-Agent/main/WTFPL_badge.png)
